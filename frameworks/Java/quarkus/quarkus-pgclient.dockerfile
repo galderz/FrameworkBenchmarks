@@ -5,11 +5,13 @@ COPY base/pom.xml base/pom.xml
 COPY hibernate/pom.xml hibernate/pom.xml
 COPY hibernate-epoll/pom.xml hibernate-epoll/pom.xml
 COPY pgclient/pom.xml pgclient/pom.xml
+COPY pgclient-nio/pom.xml pgclient-nio/pom.xml
 RUN mvn dependency:go-offline -q -pl base
 COPY base/src/main/resources base/src/main/resources
 COPY hibernate/src hibernate/src
 COPY hibernate-epoll/src hibernate-epoll/src
 COPY pgclient/src pgclient/src
+COPY pgclient-nio/src pgclient-nio/src
 
 RUN mvn package -q -pl pgclient -am
 

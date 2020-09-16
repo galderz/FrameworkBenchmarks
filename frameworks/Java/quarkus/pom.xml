@@ -19,6 +19,7 @@
         <module>hibernate</module>
         <module>hibernate-epoll</module>
         <module>pgclient</module>
+        <module>pgclient-nio</module>
     </modules>
 
     <dependencyManagement>
