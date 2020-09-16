@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>io.quarkus.benchmark</groupId>
-    <artifactId>hibernate</artifactId>
+    <artifactId>hibernate-epoll</artifactId>
 
     <dependencies>
         <dependency>
