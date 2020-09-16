@@ -2,7 +2,7 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.quarkus</groupId>
+    <groupId>io.quarkus.epoll</groupId>
     <artifactId>benchmark</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -30,7 +30,7 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>io.quarkus.benchmark</groupId>
+                <groupId>io.quarkus.epoll.benchmark</groupId>
                 <artifactId>base</artifactId>
                 <version>${project.version}</version>
             </dependency>

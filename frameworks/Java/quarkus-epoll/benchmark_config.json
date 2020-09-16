@@ -1,5 +1,5 @@
 {
-  "framework": "quarkus",
+  "framework": "quarkus-epoll",
   "tests": [
     {
       "default": {
@@ -13,7 +13,7 @@
         "approach": "Realistic",
         "classification": "fullstack",
         "database": "Postgres",
-        "framework": "Quarkus",
+        "framework": "Quarkus Epoll",
         "language": "Java",
         "flavor": "None",
         "orm": "Full",
@@ -21,7 +21,7 @@
         "webserver": "Undertow",
         "os": "Linux",
         "database_os": "Linux",
-        "display_name": "Quarkus + Hibernate ORM",
+        "display_name": "Quarkus Epoll + Hibernate ORM",
         "notes": "",
         "versus": "Netty"
       },
@@ -36,7 +36,7 @@
         "approach": "Realistic",
         "classification": "fullstack",
         "database": "Postgres",
-        "framework": "Quarkus",
+        "framework": "Quarkus Epoll",
         "language": "Java",
         "flavor": "None",
         "orm": "Micro",
@@ -44,7 +44,7 @@
         "webserver": "Undertow",
         "os": "Linux",
         "database_os": "Linux",
-        "display_name": "quarkus-pgclient",
+        "display_name": "quarkus-epoll-pgclient",
         "notes": "",
         "versus": "Netty"
       }
